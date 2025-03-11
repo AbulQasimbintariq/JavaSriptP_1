@@ -152,10 +152,9 @@ main h1{
   font-weight: 700;
   font-size: 1.5em;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
   .orderDetail pre{
-    font-size: 1rem;
- 
+    font-size: .7rem;
   
   }
 }
@@ -172,11 +171,11 @@ main h1{
   background-color: rgb(172, 189, 189);
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
   #Torders{
-    font-size: 1rem;
-    width: 2rem;
-    height: 2rem;
+    font-size: .8rem;
+    width: 1.2rem;
+    height: 1.2rem;
   
   }
 }
@@ -324,10 +323,9 @@ footer{
   font-weight: 700;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
   footer{
-    font-size: 1rem;
- 
+    font-size: .7rem;
   
   }
 }
@@ -350,4 +348,19 @@ footer a{
 }
 footer i{
   background: transparent;
+}
+
+@media screen and (max-width:500px) {
+  footer a{
+  padding:0 1rem;
+    
+  
+  }
+}
+
+@media screen and (max-width:500px) {
+  footer i{
+    font-size: .7rem;
+  
+  }
 }
