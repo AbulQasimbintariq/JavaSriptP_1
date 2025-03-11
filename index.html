@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>JavaScipt</title>
+</head>
+<body>
+    <header>Qasim Bhalli Interprises</header>
+    <nav>
+        <div id="navopts">
+            <a href="./">Buyers</a>
+            <a href="./">Orders</a>
+            <a href="./">Prodects</a>
+        </div>
+    </nav>
+    <main>
+        <div class="sect-1">
+            <h1>Buyers</h1>
+            <div class="Quary">
+                <pre>      Are you buyer  :</pre>
+                <button id="NO">No</button>
+                <button id="YES">Yes</button>
+            </div>
+            <div>
+                <p class="reply">Most welcome! How can we assist you.</p>
+            </div>
+             <div class="manu" style="display: none;">
+                    <h3>Select Products</h3>
+                    <table class="manuTable">
+                        <tr>
+                            <th id="p-1">Product-1</th>
+                            <th id="p-2">Product-2</th>
+                            <th id="p-3">Product-3</th>
+                            <th id="p-4">Product-4</th>
+                        </tr>
+                    </table>
+                    <button id="productsubmit">Ok</button>
+                     
+             </div>
+         <div class="OrderDetail" style="display: none;">
+            <table>
+                <tr>
+                    <th>BuyerId</th>
+                    <th>Product-1</th>
+                    <th>Product-2</th>
+                </tr>
+                <tr>
+                    <td id="BuyerId">0</td>
+                    <td id="orderP-1">0</td>
+                    <td id="orderP-2">0</td>
+                </tr>
+                <tr>
+                    <th>Product-3</th>
+                    <th>Product-4</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td id="orderP-3">0</td>
+                    <td id="orderP-4">0</td>
+                    <td class="totalOrder">0</td>
+                </tr>
+            </table>
+         </div>   
+
+        </div>
+        <div class="sect-2">
+            <h1>Product</h1>
+            <table class="productTable">
+                <tr>
+                    <th>Products</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Product-1</td>
+                    <td id="p-quentity1">0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Product-2</td>
+                    <td id="p-quentity2">0</td>
+                    <td>0</td>
+                </tr><tr>
+                    <td>Product-3</td>
+                    <td id="p-quentity3">0</td>
+                    <td>0</td>
+                </tr><tr>
+                    <td>Product-4</td>
+                    <td id="p-quentity4">0</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+        <div class="sect-3">
+            <h1>Orders</h1>
+            <div class="orderDetail">
+            <pre> Total numbers of proceeding orders :</pre>
+            <div id="Torders">0</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Created By Abul Qasim Bin Tariq</p>
+        <div>
+            <a href="#">
+                <i>1</i>
+            </a>
+            <a href="#">
+                <i>2</i>
+            </a>
+            <a href="#">
+                <i>3</i>
+            </a>
+        </div>
+    </footer>
+<script src="/app.js"></script>    
+</body>
+</html>

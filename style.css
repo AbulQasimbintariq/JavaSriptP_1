@@ -1,0 +1,353 @@
+* {
+  background-color: rgb(207, 222, 222);
+}
+header{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(56, 58, 58);
+  padding: 1.5rem;
+}
+
+@media screen and (max-width:700px) {
+  header{
+  font-size: 1.7rem;
+  }
+}
+nav{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+nav #navopts{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width:70% ;
+  background-color: rgb(172, 189, 189);
+  border-radius: 2rem;
+}
+
+@media screen and (max-width:700px) {
+  nav #navopts{
+    width:90% ;
+  }
+}
+
+nav #navopts a{
+  background:transparent;
+  color: rgb(56, 58, 58);
+  text-decoration: none;
+  padding:1.5rem;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+@media screen and (max-width:700px) {
+  nav #navopts a{
+  font-size: 1.1rem;
+  }
+}
+nav #navopts a:hover{
+  color: rgb(120, 122, 122);
+  
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.sect-2,.sect-3{
+  width: 48%;
+  margin: 5px;
+  color: rgb(56, 58, 58);
+  border: 5px double rgb(172, 189, 189);
+  border-radius: 1rem;
+  flex-grow: 1;
+}
+
+.sect-1{
+  width: 98%;
+  margin: 5px;
+  color: rgb(56, 58, 58);
+  border: 5px double rgb(172, 189, 189);
+  border-radius: 1rem;
+
+}
+ 
+main h1{
+  margin: 0;
+  background: transparent;
+  text-decoration: underline;
+}
+.Quary{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content:start;
+  align-items: center;
+}
+
+
+.reply{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+}
+@media screen and (max-width:750px) {
+  .reply{
+   font-size: 1rem; 
+  }
+}
+
+.Quary pre{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:700px) {
+  .Quary pre{
+  font-size: 1.1rem;
+  }
+}
+
+.Quary button{
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgb(172, 189, 189);
+}
+
+@media screen and (max-width:700px) {
+  .Quary button{
+  font-size: 1rem;
+  font-weight: 500;
+  width: 2rem;
+  height: 2rem;
+  }
+}
+
+.Quary button:hover{
+  color: rgb(120, 122, 122);
+}
+
+.orderDetail{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content:center;
+  align-items: center;
+}
+
+.orderDetail pre{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+@media screen and (max-width:700px) {
+  .orderDetail pre{
+    font-size: 1rem;
+ 
+  
+  }
+}
+
+#Torders{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: rgb(172, 189, 189);
+}
+
+@media screen and (max-width:700px) {
+  #Torders{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+  
+  }
+}
+
+
+.productTable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+
+}
+
+@media screen and (max-width:700px) {
+  .productTable{
+    font-size: 1rem;
+ 
+  
+  }
+}
+
+.productTable th{
+  background-color:rgb(172, 189, 189) ;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:700px) {
+  .productTable th{
+    font-size: 1.1rem;
+ 
+  
+  }
+}
+
+.manu{
+  background-color:rgb(172, 189, 189) ;
+  display: flex;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:700px) {
+  .manu{
+  font-size: 1rem;
+  font-weight: 500; 
+  
+  }
+}
+
+h3{
+  text-align: center;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  text-decoration:underline;
+}
+.manuTable {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.manuTable th{
+  background-color:rgb(172, 189, 189) ;
+  padding: 1rem;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width:700px) {
+  .manuTable th{
+  padding: 0.5rem; 
+  
+  }
+}
+
+#productsubmit{
+  border: 2px solid rgb(207, 222, 222);
+  position: relative ;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding:0 2rem ;
+  background-color:rgb(172, 189, 189) ;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width:750px) {
+  #productsubmit{
+   font-size: 1.1rem; 
+  }
+}
+
+.OrderDetail{
+  display: flex;
+  text-align: center;   
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+@media screen and (max-width:750px) {
+  .OrderDetail{
+   font-size: .8rem;  
+   font-weight: 700;
+  }
+}
+
+.OrderDetail table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.OrderDetail th {
+  background-color: rgb(172, 189, 189);
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:750px) {
+  .OrderDetail th{
+    font-size: .8rem;  
+
+  
+  }
+}
+
+
+footer{
+  height: 5rem;
+  background-color: rgb(172, 189, 189);
+  border-radius: 2rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width:700px) {
+  footer{
+    font-size: 1rem;
+ 
+  
+  }
+}
+footer p{
+  background:transparent;
+  padding: 0;
+  margin: 0;
+  
+}
+
+footer div{
+  background: transparent;
+  padding: 0;
+  margin: 0; 
+}
+footer a{
+  padding:0 2rem;
+  background: transparent; 
+  text-decoration: none;
+}
+footer i{
+  background: transparent;
+}
