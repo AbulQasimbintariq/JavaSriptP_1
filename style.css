@@ -222,7 +222,7 @@ main h1{
 
 @media screen and (max-width:700px) {
   .manu{
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 500; 
   
   }
