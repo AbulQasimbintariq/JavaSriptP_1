@@ -312,6 +312,12 @@ h3{
 
 
 footer{
+  position: fixed;
+  width: 96%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  bottom: 0;
   height: 5rem;
   background-color: rgb(172, 189, 189);
   border-radius: 2rem;
@@ -324,7 +330,7 @@ footer{
 }
 
 @media screen and (max-width:500px) {
-  footer{
+  footer p{
     font-size: .7rem;
   
   }
@@ -341,26 +347,43 @@ footer div{
   padding: 0;
   margin: 0; 
 }
+
+footer div ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+
+}
+
+footer div ul li{
+  background: transparent;
+  /* background-color: rgb(172, 189, 189); */
+
+}
+
 footer a{
   padding:0 2rem;
   background: transparent; 
   text-decoration: none;
 }
-footer i{
-  background: transparent;
-}
 
 @media screen and (max-width:500px) {
   footer a{
-  padding:0 1rem;
-    
-  
+    padding:0 .7rem;
+
   }
+}
+footer i{
+  color: rgb(55, 38, 38);
+  background: transparent;
+  padding:.7rem 0;
 }
 
 @media screen and (max-width:500px) {
   footer i{
     font-size: .7rem;
-  
   }
 }
